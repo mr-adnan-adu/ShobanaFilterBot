@@ -16,6 +16,35 @@ from bs4 import BeautifulSoup
 import requests
 
 #  @MrMNTG @MusammilN
+#please give credits https://github.com/MN-BOTS/ShobanaFilterBot
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+BTN_URL_REGEX = re.compile(
+    r"(\[([^\[]+?)\]\((buttonurl|buttonalert):(?:/{0,2})(.+?)(:same)?\))"
+)
+
+imdb = IMDb() 
+
+BANNED = {}
+SMART_OPEN = '“'
+SMART_CLOSE = '”'
+START_CHAR = ('\'', '"', SMART_OPEN)
+
+# temp db for banned 
+class temp(object):
+    BANNED_USERS = []
+    BANNED_CHATS = []
+    ME = None
+    CURRENT=int(os.environ.get("SKIP", 2))
+    CANCEL = False
+    MELCOW = {}
+    U_NAME = None
+    B_NAME = None
+    SETTINGS = {}
+
+#  @MrMNTG @MusammilN
+#please give credits https://github.com/MN-BOTS/ShobanaFilterBot
 from pyrogram.enums import ChatMemberStatus
 from database.users_chats_db import db
 from info import REQUEST_FSUB_MODE  # Import from your info.py
