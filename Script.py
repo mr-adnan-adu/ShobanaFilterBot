@@ -7,16 +7,16 @@ class script(object):
 Currently using free server so please Dont kill Me...
 """
     ABOUT_TXT = """<b>
-◎ Cʀᴇᴀᴛᴏʀ: <a href=https://github.com/mntg4u> MN - TG</a>
+◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/Hunter2006x> α∂ηαη</a>
 ◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Shobana Filter Bot  is a open source project. 
-- Source - <ahref=https://github.com/mn-bots/ShobanaFilterBot>Click Here to get source code</a>
+- ebooks downloader Bot  is a open source project. 
+- Source - <ahref=https://t.me/Hunter2006x>Click Here to get source code</a>
 
 <b>DEVS:</b>
--<a href=https://github.com/mntg4u> MN - TG</a>"""
+-<a href=https://t.me/Hunter2006x> α∂ηαη</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and shobana will respond whenever a keyword is found the message
 <b>NOTE:</b>
@@ -39,7 +39,7 @@ Currently using free server so please Dont kill Me...
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://github.com/mn-bots/ShobanaFilterBot)</code>
+<code>[Button Text](buttonurl:https://t.me/Hunter2006x)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -117,15 +117,13 @@ Added By - {}
     CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
-╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
- Jᴏɪɴ :- [MAIN CHANNEL](https://t.me/mn_movies2)
- Jᴏɪɴ :- [Movie Group 1](https://t.me/mn_movies3)
- Jᴏɪɴ :- [Movie Group 2](https://t.me/malayalam_movies_group2)
- Jᴏɪɴ :- [Movie Group 3](https://t.me/Netflix_Group3)
- Jᴏɪɴ :- [Movie Group 4](https://t.me/cinima_theerthadana_kendram)
- Jᴏɪɴ :- [Movie Group 5](https://t.me/malayalam_movies_nbot)
- Jᴏɪɴ :- [Movie Group 6](https://t.me/seriesgroups)
- Jᴏɪɴ :- [Movie Group 7](https://t.me/New_indian_cinemas)
+ 🔰👉 കൂടുതൽ ഈ-ബുക്കുകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ
+
+ 🌟༺ ──•◈•─ ─•◈•──༻🌟
+ ➧@malayalamaudiobooksebooks
+ ➧@ebooks_kerala
+ ➧@AITechWaveML
+ 
 ╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝
 
 ⚠️ <b>This file will be deleted from here within 1 minute as it has copyright ... !!!</b>
@@ -158,25 +156,35 @@ OR
 <pre>Report To ADMIN BY USING /bugs command </pre> 
     """
 #SPELL CHECK LANGUAGES TO KNOW callback
-    ENG_SPELL="""Please Note Below📓
-1️⃣ Ask in Correct Spelling
-2️⃣ Don't ask Movies which are not Realased on OTT PLATFORMS
-3️⃣ Possible  ASK [movie name langauge] like this or [movie year]
+    ENG_SPELL="""📚 Book Request Rules 🔥
+
+1️⃣ Ask with correct spelling.
+➤ Example: ✅ "Atomic Habits", ❌ "Atmic habbits"
+
+2️⃣ Don't request copyrighted books.
+➤ We only share public domain or open-access books.
     """
     MAL_SPELL="""ദയവായി താഴെ ശ്രദ്ധിക്കുക📓
-1️⃣ ശരിയായ അക്ഷരവിന്യാസത്തിൽ ചോദിക്കുക
-2️⃣ OTT പ്ലാറ്റ്‌ഫോമുകളിൽ റിലീസ് ചെയ്യാത്ത സിനിമകൾ ചോദിക്കരുത്
-3️⃣ ഇത് പോലെ [സിനിമയുടെ പേര് ഭാഷ] അല്ലെങ്കിൽ [സിനിമ വർഷം] ചോദിക്കാം
+1️⃣ ശരിയായ സ്പെല്ലിങ്ങ് ഉപയോഗിച്ച് ചോദിക്കുക.
+➤ ഉദാഹരണം: ✅ "Atomic Habits" ❌ "Atmic habbits"
+
+2️⃣ കോപിറൈറ്റ് ഉള്ള പുസ്തകങ്ങൾ അഭ്യർത്ഥിക്കരുത്.
+➤ Public domain / open access പുസ്തകങ്ങൾ മാത്രമേ ഷെയർ ചെയ്യൂ.
     """
-    HIN_SPELL="""कृपया नीचे ध्यान दें📓
-1️⃣ सही वर्तनी में पूछें
-2️⃣ उन फिल्मों के बारे में न पूछें जो ओटीटी प्लेटफॉर्म पर रिलीज नहीं हुई हैं
-3️⃣ संभव है पूछें [मूवी का नाम भाषा] इस तरह या [मूवी वर्ष]
+    HIN_SPELL=""📚 किताब माँगने के नियम 🔥
+
+1️⃣ सही स्पेलिंग के साथ पूछें।
+➤ उदाहरण: ✅ "Atomic Habits", ❌ "Atmic habbits"
+
+2️⃣ कॉपीराइट वाली किताबें न माँगें।
+➤ हम सिर्फ़ पब्लिक डोमेन या ओपन-एक्सेस किताबें शेयर करते हैं।
     """
-    TAM_SPELL="""கீழே கவனிக்கவும்📓
-1️⃣ சரியான எழுத்துப்பிழையில் கேளுங்கள்
-2️⃣ வெளியாகாத திரைப்படங்களைக் கேட்காதீர்கள்
-3️⃣ இந்த வடிவத்தில் கேளுங்கள் [திரைப்படத்தின் பெயர், ஆண்டு]
+    TAM_SPELL="""📚 புத்தக கோரிக்கைக்கான நிபந்தனைகள் 🔥
+1️⃣ சரியான எழுத்துப்பிழையில்லாமல் கேளுங்கள்.
+➤ உதாரணம்: ✅ "Atomic Habits", ❌ "Atmic habbits"
+
+2️⃣ பதிப்புரிமை உள்ள (copyrighted) புத்தகங்களை கேட்க வேண்டாம்.
+➤ Public domain / Open access புத்தகங்கள் மட்டும்.
     """
 
     CHK_MOV_ALRT="""♻️ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
