@@ -4,14 +4,14 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from database.ia_filterdb import get_movie_list, get_series_grouped
 
-@Client.on_message(filters.private & filters.command("movies"))
+@Client.on_message(filters.private & filters.command("book"))
 async def list_movies(bot: Client, message: Message):
-    movies = await get_movie_list()
-    if not movies:
-        return await message.reply("❌ No recent movies found.")
+    book = await get_movie_list()
+    if not book:
+        return await message.reply("❌ No recent book found.")
     
-    msg = "<b>🎬 Latest Movies:</b>\n\n"
-    msg += "\n".join(f"✅ <code>{m}</code>" for m in movies)
+    msg = "<b>📚 Latest eBooks:</b>\n\n"
+    msg += "\n".join(f"✅ <code>{m}</code>" for m in book)
     await message.reply(msg[:4096], parse_mode=ParseMode.HTML)
 
 @Client.on_message(filters.private & filters.command("series"))
